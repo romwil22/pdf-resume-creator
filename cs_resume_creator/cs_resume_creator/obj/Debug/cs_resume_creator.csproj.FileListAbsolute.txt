@@ -1,0 +1,10 @@
+C:\Users\Rom\Desktop\PROGRAMMING\CS-repo\cs_resume_creator\cs_resume_creator\bin\Debug\cs_resume_creator.exe.config
+C:\Users\Rom\Desktop\PROGRAMMING\CS-repo\cs_resume_creator\cs_resume_creator\bin\Debug\cs_resume_creator.exe
+C:\Users\Rom\Desktop\PROGRAMMING\CS-repo\cs_resume_creator\cs_resume_creator\bin\Debug\cs_resume_creator.pdb
+C:\Users\Rom\Desktop\PROGRAMMING\CS-repo\cs_resume_creator\cs_resume_creator\obj\Debug\cs_resume_creator.csproj.AssemblyReference.cache
+C:\Users\Rom\Desktop\PROGRAMMING\CS-repo\cs_resume_creator\cs_resume_creator\obj\Debug\cs_resume_creator.resume.resources
+C:\Users\Rom\Desktop\PROGRAMMING\CS-repo\cs_resume_creator\cs_resume_creator\obj\Debug\cs_resume_creator.Properties.Resources.resources
+C:\Users\Rom\Desktop\PROGRAMMING\CS-repo\cs_resume_creator\cs_resume_creator\obj\Debug\cs_resume_creator.csproj.GenerateResource.cache
+C:\Users\Rom\Desktop\PROGRAMMING\CS-repo\cs_resume_creator\cs_resume_creator\obj\Debug\cs_resume_creator.csproj.CoreCompileInputs.cache
+C:\Users\Rom\Desktop\PROGRAMMING\CS-repo\cs_resume_creator\cs_resume_creator\obj\Debug\cs_resume_creator.exe
+C:\Users\Rom\Desktop\PROGRAMMING\CS-repo\cs_resume_creator\cs_resume_creator\obj\Debug\cs_resume_creator.pdb
