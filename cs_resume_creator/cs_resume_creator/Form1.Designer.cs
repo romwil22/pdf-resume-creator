@@ -41,6 +41,7 @@ namespace cs_resume_creator
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.address_richbox = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // firstname_textbox
@@ -156,11 +157,21 @@ namespace cs_resume_creator
             this.label1.TabIndex = 10;
             this.label1.Text = "Address:";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(202, 212);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // resume
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 495);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.address_richbox);
             this.Controls.Add(this.textBox1);
@@ -177,6 +188,7 @@ namespace cs_resume_creator
             this.MaximizeBox = false;
             this.Name = "resume";
             this.Text = "PDF resume creator";
+            this.Load += new System.EventHandler(this.resume_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -196,6 +208,7 @@ namespace cs_resume_creator
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.RichTextBox address_richbox;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }
 

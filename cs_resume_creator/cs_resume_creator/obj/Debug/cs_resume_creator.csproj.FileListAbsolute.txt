@@ -8,3 +8,18 @@ C:\Users\Rom\Desktop\PROGRAMMING\CS-repo\cs_resume_creator\cs_resume_creator\obj
 C:\Users\Rom\Desktop\PROGRAMMING\CS-repo\cs_resume_creator\cs_resume_creator\obj\Debug\cs_resume_creator.csproj.CoreCompileInputs.cache
 C:\Users\Rom\Desktop\PROGRAMMING\CS-repo\cs_resume_creator\cs_resume_creator\obj\Debug\cs_resume_creator.exe
 C:\Users\Rom\Desktop\PROGRAMMING\CS-repo\cs_resume_creator\cs_resume_creator\obj\Debug\cs_resume_creator.pdb
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\pdf-resume-creator\cs_resume_creator\cs_resume_creator\bin\Debug\cs_resume_creator.exe.config
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\pdf-resume-creator\cs_resume_creator\cs_resume_creator\bin\Debug\cs_resume_creator.exe
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\pdf-resume-creator\cs_resume_creator\cs_resume_creator\bin\Debug\cs_resume_creator.pdb
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\pdf-resume-creator\cs_resume_creator\cs_resume_creator\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\pdf-resume-creator\cs_resume_creator\cs_resume_creator\bin\Debug\itextsharp.dll
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\pdf-resume-creator\cs_resume_creator\cs_resume_creator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\pdf-resume-creator\cs_resume_creator\cs_resume_creator\bin\Debug\itextsharp.xml
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\pdf-resume-creator\cs_resume_creator\cs_resume_creator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\pdf-resume-creator\cs_resume_creator\cs_resume_creator\obj\Debug\cs_resume_creator.csproj.AssemblyReference.cache
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\pdf-resume-creator\cs_resume_creator\cs_resume_creator\obj\Debug\cs_resume_creator.resume.resources
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\pdf-resume-creator\cs_resume_creator\cs_resume_creator\obj\Debug\cs_resume_creator.Properties.Resources.resources
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\pdf-resume-creator\cs_resume_creator\cs_resume_creator\obj\Debug\cs_resume_creator.csproj.GenerateResource.cache
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\pdf-resume-creator\cs_resume_creator\cs_resume_creator\obj\Debug\cs_resume_creator.csproj.CoreCompileInputs.cache
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\pdf-resume-creator\cs_resume_creator\cs_resume_creator\obj\Debug\cs_resume_creator.exe
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\pdf-resume-creator\cs_resume_creator\cs_resume_creator\obj\Debug\cs_resume_creator.pdb
