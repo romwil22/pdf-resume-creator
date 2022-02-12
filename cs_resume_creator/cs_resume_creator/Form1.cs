@@ -31,7 +31,7 @@ namespace cs_resume_creator
 
         private void pdf_resume_Click(object sender, EventArgs e)
         {
-            //PDF
+            // WRITE PDF
             Document PDFresume = new Document();
             PdfWriter.GetInstance(PDFresume, new FileStream(@"C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\pdf-resume-creator\cs_resume_creator\cs_resume_creator\PILAPIL_ROMWIL_JAMES.pdf", FileMode.Create));
             LineSeparator hl = new LineSeparator(3f, 100f, BaseColor.DARK_GRAY, Element.ALIGN_CENTER, 1);
@@ -75,7 +75,7 @@ namespace cs_resume_creator
 
         private void read_json_Click(object sender, EventArgs e)
         {
-            // JSON
+            // READ JSON
             string jsonFile = @"C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\pdf-resume-creator\cs_resume_creator\cs_resume_creator\resume_info.json";
             string readJsonFile = File.ReadAllText(jsonFile);
             Readjson jsonFileOutput = JsonConvert.DeserializeObject<Readjson>(readJsonFile);

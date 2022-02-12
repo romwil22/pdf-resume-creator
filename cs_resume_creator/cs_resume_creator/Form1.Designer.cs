@@ -129,12 +129,15 @@ namespace cs_resume_creator
             // 
             // pdf_resume
             // 
+            this.pdf_resume.BackColor = System.Drawing.Color.DarkRed;
+            this.pdf_resume.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pdf_resume.ForeColor = System.Drawing.Color.White;
             this.pdf_resume.Location = new System.Drawing.Point(601, 436);
             this.pdf_resume.Name = "pdf_resume";
             this.pdf_resume.Size = new System.Drawing.Size(117, 47);
             this.pdf_resume.TabIndex = 11;
             this.pdf_resume.Text = "Create PDF";
-            this.pdf_resume.UseVisualStyleBackColor = true;
+            this.pdf_resume.UseVisualStyleBackColor = false;
             this.pdf_resume.Click += new System.EventHandler(this.pdf_resume_Click);
             // 
             // car_obj_label
@@ -234,12 +237,14 @@ namespace cs_resume_creator
             // 
             // read_json
             // 
+            this.read_json.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.read_json.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.read_json.Location = new System.Drawing.Point(478, 436);
             this.read_json.Name = "read_json";
             this.read_json.Size = new System.Drawing.Size(117, 47);
             this.read_json.TabIndex = 18;
             this.read_json.Text = "Read JSON";
-            this.read_json.UseVisualStyleBackColor = true;
+            this.read_json.UseVisualStyleBackColor = false;
             this.read_json.Click += new System.EventHandler(this.read_json_Click);
             // 
             // resume
