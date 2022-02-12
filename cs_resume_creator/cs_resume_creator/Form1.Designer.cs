@@ -48,6 +48,7 @@ namespace cs_resume_creator
             this.extra_act_ricbox = new System.Windows.Forms.RichTextBox();
             this.cert_etc_label = new System.Windows.Forms.Label();
             this.cert_etc_richbox = new System.Windows.Forms.RichTextBox();
+            this.read_json = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // fullname_textbox
@@ -128,9 +129,9 @@ namespace cs_resume_creator
             // 
             // pdf_resume
             // 
-            this.pdf_resume.Location = new System.Drawing.Point(501, 351);
+            this.pdf_resume.Location = new System.Drawing.Point(601, 436);
             this.pdf_resume.Name = "pdf_resume";
-            this.pdf_resume.Size = new System.Drawing.Size(75, 23);
+            this.pdf_resume.Size = new System.Drawing.Size(117, 47);
             this.pdf_resume.TabIndex = 11;
             this.pdf_resume.Text = "Create PDF";
             this.pdf_resume.UseVisualStyleBackColor = true;
@@ -231,11 +232,22 @@ namespace cs_resume_creator
             this.cert_etc_richbox.TabIndex = 17;
             this.cert_etc_richbox.Text = "";
             // 
+            // read_json
+            // 
+            this.read_json.Location = new System.Drawing.Point(478, 436);
+            this.read_json.Name = "read_json";
+            this.read_json.Size = new System.Drawing.Size(117, 47);
+            this.read_json.TabIndex = 18;
+            this.read_json.Text = "Read JSON";
+            this.read_json.UseVisualStyleBackColor = true;
+            this.read_json.Click += new System.EventHandler(this.read_json_Click);
+            // 
             // resume
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 495);
+            this.Controls.Add(this.read_json);
             this.Controls.Add(this.cert_etc_richbox);
             this.Controls.Add(this.cert_etc_label);
             this.Controls.Add(this.extra_act_ricbox);
@@ -287,6 +299,7 @@ namespace cs_resume_creator
         private System.Windows.Forms.RichTextBox extra_act_ricbox;
         private System.Windows.Forms.Label cert_etc_label;
         private System.Windows.Forms.RichTextBox cert_etc_richbox;
+        private System.Windows.Forms.Button read_json;
     }
 }
 

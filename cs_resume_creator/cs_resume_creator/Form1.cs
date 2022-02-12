@@ -18,7 +18,7 @@ namespace cs_resume_creator
 {
     public partial class resume : Form
     {
-        string jsonFile = @"C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\pdf-resume-creator\cs_resume_creator\cs_resume_creator\resume_info.json";
+        
         public resume()
         {
             InitializeComponent();
@@ -31,7 +31,52 @@ namespace cs_resume_creator
 
         private void pdf_resume_Click(object sender, EventArgs e)
         {
+            //PDF
+            Document PDFresume = new Document();
+            PdfWriter.GetInstance(PDFresume, new FileStream(@"C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\pdf-resume-creator\cs_resume_creator\cs_resume_creator\PILAPIL_ROMWIL_JAMES.pdf", FileMode.Create));
+            LineSeparator hl = new LineSeparator(3f, 100f, BaseColor.DARK_GRAY, Element.ALIGN_CENTER, 1);
+
+            Paragraph fname = new Paragraph(fullname_textbox.Text);
+            Paragraph add = new Paragraph(address_richbox.Text);
+            Paragraph emailMobile = new Paragraph(email_richbox.Text+" | Mobile No: "+mobile_textbox.Text+"\n\n");
+            Paragraph carObj = new Paragraph("Career Objective"+"\n"+"     " + car_obj_richbox.Text+"\n\n");
+            Paragraph profAtt = new Paragraph("Proffesional Atributes"+"\n"+"     " + prof_att_richbox.Text+"\n\n");
+            Paragraph tert = new Paragraph("Education"+"\n\n"+"Tertiary: "+educ_richbox.Text+ "\n\n");
+            Paragraph extAct = new Paragraph("Extraculicular Activity" + "\n" + "     " + extra_act_ricbox.Text + "\n\n");
+            Paragraph cert = new Paragraph("Certificate, Workshops, and Seminar Attended" + "\n" + "     " + cert_etc_richbox.Text + "\n\n\n");
+
+            PDFresume.Open();
+            PDFresume.Add(fname);
+            PDFresume.Add(add);
+            PDFresume.Add(emailMobile);
+            PDFresume.Add(hl);
+            PDFresume.Add(carObj);
+            PDFresume.Add(profAtt);
+            PDFresume.Add(tert);
+            PDFresume.Add(extAct);
+            PDFresume.Add(cert);
+            PDFresume.Close();
+
+            MessageBox.Show("PDF file create successfully", "Information" ,MessageBoxButtons.OK);
+        }
+
+        public class Readjson
+        {
+            public string fullname { get; set; }
+            public string address { get; set; }
+            public string email { get; set; }
+            public string mobile { get; set; }
+            public string car_obj { get; set; }
+            public string prof_att { get; set; }
+            public string tertiary { get; set; }
+            public string extra_act { get; set; }
+            public string cert { get; set; }
+        }
+
+        private void read_json_Click(object sender, EventArgs e)
+        {
             // JSON
+            string jsonFile = @"C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\pdf-resume-creator\cs_resume_creator\cs_resume_creator\resume_info.json";
             string readJsonFile = File.ReadAllText(jsonFile);
             Readjson jsonFileOutput = JsonConvert.DeserializeObject<Readjson>(readJsonFile);
 
@@ -54,20 +99,6 @@ namespace cs_resume_creator
             educ_richbox.Enabled = true;
             extra_act_ricbox.Enabled = true;
             cert_etc_richbox.Enabled = true;
-
-        }
-
-        public class Readjson
-        {
-            public string fullname { get; set; }
-            public string address { get; set; }
-            public string email { get; set; }
-            public string mobile { get; set; }
-            public string car_obj { get; set; }
-            public string prof_att { get; set; }
-            public string tertiary { get; set; }
-            public string extra_act { get; set; }
-            public string cert { get; set; }
         }
     }
 }
